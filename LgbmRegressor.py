@@ -1,6 +1,9 @@
 from My_models.BaseModel import Base_Model
 import lightgbm as lgb
 import seaborn as sns
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
 
 class lightgbmRegressor(Base_Model):
     def plot_importance(self):

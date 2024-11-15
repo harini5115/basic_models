@@ -1,6 +1,9 @@
 from sklearn.model_selection import KFold
 import numpy as np
 from sklearn.metrics import log_loss, mean_squared_error
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
 
 class Base_Model():
     def __init__(self, train_df, test_df, feats,target, categorical_variables = [],
